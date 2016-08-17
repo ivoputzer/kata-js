@@ -1,0 +1,28 @@
+{
+  "name": "kata-js",
+  "version": "1.0.0",
+  "description": "boilerplate application for javascript katas",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivoputzer/kata-js.git"
+  },
+  "keywords": [
+    "kata",
+    "mocha",
+    "test",
+    "js"
+  ],
+  "author": "Ivo von Putzer Reibegg <ivo.putzer@gmail.com> (https://github.com/ivoputzer)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivoputzer/kata-js/issues"
+  },
+  "homepage": "https://github.com/ivoputzer/kata-js#readme",
+  "dependencies": {
+    "mocha": "^3.0.2"
+  }
+}
