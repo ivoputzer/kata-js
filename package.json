@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/ivoputzer/kata-js#readme",
   "dependencies": {
+    "chai": "^3.5.0",
     "mocha": "^3.0.2"
   }
 }

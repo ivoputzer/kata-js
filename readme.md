@@ -1,9 +1,10 @@
 kata-js
 ===
-boilerplate application for javascript katas.
+boilerplate application for javascript katas
 
-### setup
+#### usage
 ```
+git clone ivoputzer/kata-js .
 npm install
 npm test
 ```
