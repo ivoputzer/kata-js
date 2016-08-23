@@ -1,6 +1,7 @@
 {
   "name": "kata-js",
   "version": "1.0.0",
+  "private": true,
   "description": "boilerplate application for javascript katas",
   "main": "index.js",
   "scripts": {
