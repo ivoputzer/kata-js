@@ -4,6 +4,7 @@
   "description": "boilerplate application for javascript katas",
   "main": "index.js",
   "scripts": {
+    "node": "node",
     "test": "mocha"
   },
   "repository": {
