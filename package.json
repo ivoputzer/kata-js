@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "node": "node",
-    "postinstall": "rm -rf .git; sed -i \/postinstall\/d package.json",
+    "postinstall": "rm -rf .git && sed -i '' '/postinstall/d' package.json",
     "test": "mocha"
   },
   "repository": {
