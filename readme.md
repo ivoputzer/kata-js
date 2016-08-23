@@ -2,9 +2,21 @@ kata-js
 ===
 boilerplate application for javascript katas
 
-#### usage
+#### example usage
 ```
-git clone ivoputzer/kata-js .
-npm install
+git clone ivoputzer/kata-js string-calculator-kata-js
+cd string-calculator-kata-js
+
+npm install # prunes git directory and package.json
 npm test
+
+git init
+git create ivoputzer/string-calculator-kata-js
+
+npm init
+
+git add --all
+git commit -m "initial commit"
+
+git push -u origin master
 ```
