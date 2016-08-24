@@ -13,8 +13,8 @@ npm test
 git init
 git create ivoputzer/string-calculator-kata-js
 
-npm init
 echo "string calculator kata in javascript" > readme.md
+npm init
 
 git add --all
 git commit -m "initial commit"
