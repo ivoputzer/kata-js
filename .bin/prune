@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+json -If package.json -e this.name=undefined \
+                      -e this.version=undefined \
+                      -e this.description=undefined \
+                      -e this.scripts.postinstall=undefined \
+                      -e this.repository=undefined \
+                      -e this.keywords=undefined \
+                      -e this.author=undefined \
+                      -e this.license=undefined \
+                      -e this.bugs=undefined \
+                      -e this.homepage=undefined \
+                      -e this.dependencies.json=undefined
+
+rm -rf .git
+rm -rf .bin
+
+npm prune

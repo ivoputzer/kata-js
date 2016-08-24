@@ -2,7 +2,7 @@ kata-js
 ===
 boilerplate application for javascript katas
 
-#### example usage
+####example usage
 ```
 git clone ivoputzer/kata-js string-calculator-kata-js
 cd string-calculator-kata-js
@@ -14,9 +14,15 @@ git init
 git create ivoputzer/string-calculator-kata-js
 
 npm init
+echo "string calculator kata in javascript" > readme.md
 
 git add --all
 git commit -m "initial commit"
 
 git push -u origin master
+```
+
+####dependencies
+```
+brew install git hub
 ```

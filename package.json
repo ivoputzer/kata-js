@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "node": "node",
-    "postinstall": "rm -rf .git && sed -i '' '/postinstall/d' package.json",
+    "postinstall": ".bin/prune",
     "test": "mocha"
   },
   "repository": {
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/ivoputzer/kata-js#readme",
   "dependencies": {
+    "json": "^9.0.4",
     "mocha": "^3.0.2"
   }
 }
